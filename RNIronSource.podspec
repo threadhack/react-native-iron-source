@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.default_subspec = 'Core'
 
   s.dependency "React"
-  s.dependency "IronSourceSDK", "6.8.3.0"
+  s.dependency "IronSourceSDK", "6.8.4.0"
 
   s.subspec "Core" do |ss|
     ss.source_files  = "ios/**/*.{h,m}"
@@ -38,7 +38,7 @@ Pod::Spec.new do |s|
     ss.dependency         "IronSourceChartboostAdapter", "4.1.5.2"
   end
   s.subspec "Facebook" do |ss|
-    ss.dependency         "IronSourceFacebookAdapter", "4.3.3.1"
+    ss.dependency         "IronSourceFacebookAdapter", "4.3.4.2"
   end
   s.subspec "HyprMX" do |ss|
     ss.dependency         "IronSourceHyprMXAdapter", "4.1.2"
